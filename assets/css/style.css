@@ -5,12 +5,31 @@
     box-sizing: border-box;
     font-family: 'Oxanium', cursive;
     font-size: 22px;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+.primary {
+    color: black;
+}
+
+.secondary {
+    color: #2864d9;
+}
+
+.tertiary {
+    color: white;
+}
+
+/***** HEADER *****/
 .head-nav {
     display: grid;
     grid-template-columns: 1fr 50% 1fr;
@@ -43,5 +62,30 @@ a {
     padding: 4%;
     border-radius: 10px;
     background-color: black; 
-    color: white;
+}
+
+/***** CONTENT *****/
+
+.main {
+  display: grid;
+  grid-template-rows: repeat(2,97vh);  
+}
+
+/** SECTION 1 **/
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 5%
+}
+
+.s1-title h1 {
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.s1-img {
+    width: 85%
 }
