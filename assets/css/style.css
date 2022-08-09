@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -42,7 +42,7 @@ p {
     right: 0;
     top: 0;
     z-index: 1000;
-    height: 11.5vh;
+    height: 8vh;
     background-color: white;
 }
 
@@ -61,7 +61,7 @@ p {
 .head-btn {
     font-size: 1.1rem;
     font-weight: 300;
-    padding: 4%;
+    padding: 3.5%;
     border-radius: 10px;
     background-color: black; 
 }
