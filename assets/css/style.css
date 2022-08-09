@@ -70,7 +70,7 @@ p {
 
 .main {
   display: grid;
-  grid-template-rows: repeat(2,97vh);  
+  grid-template-rows: repeat(3,97vh);  
 }
 
 /** SECTION 1 **/
@@ -137,3 +137,36 @@ p {
 .s2-footer div p {
     font-size: 1.2rem;
 }
+
+/** SECTION 3 **/
+
+.section3 {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.section3 p {
+    padding-bottom: 3%;
+    color: #303E49
+}
+
+.s3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4%;
+    padding: 0 18% 5% 18%;
+    min-height: 80%;
+}
+
+.s3-card {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: background-color .6s ease
+}
+
+.s3-card:hover {
+    background-color: #2864d9;
+}
+
+
